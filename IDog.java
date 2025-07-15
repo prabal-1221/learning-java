@@ -12,4 +12,9 @@ public class IDog extends IAnimal{
     public void setBreed(String breed) {
         this.breed = breed;
     }
+
+    @Override
+    public void sayHello() {
+        System.out.println("Dog: Hello");
+    }
 }

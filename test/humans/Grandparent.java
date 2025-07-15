@@ -1,10 +1,8 @@
-public class IAnimal {
+package test.humans;
+
+public class Grandparent {
     private String name;
     private int age;
-
-    public void animalSound() {
-        System.out.println("Animal makes sound.");
-    }
 
     public String getName() {
         return name;
@@ -22,7 +20,9 @@ public class IAnimal {
         this.age = age;
     }
 
-    public void sayHello() {
-        System.out.println("Animal: Hello");
+    public Grandparent(String name, int age) {
+        this.name = name;
+        this.age = age;
+        System.out.println("Grandparent Constructor called.");
     }
 }
