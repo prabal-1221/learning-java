@@ -1,8 +1,10 @@
-public class Animal {
+public abstract class Animal {
     String name;
     int age;
 
-    public void sound() {
-        System.out.println("Animal makes sound.");
+    public abstract void sound();
+
+    public void sleep() {
+        System.out.println("zzz...");
     }
 }
